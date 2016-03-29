@@ -1,0 +1,1 @@
+SELECT District FROM world.City where District like 'A%';

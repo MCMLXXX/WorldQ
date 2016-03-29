@@ -1,0 +1,1 @@
+Select Continent,Population,IndepYear from world.Country where IndepYear = 1971 AND Continent = "Asia";

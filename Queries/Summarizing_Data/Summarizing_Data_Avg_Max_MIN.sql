@@ -1,0 +1,1 @@
+Select Count(*) as Tital_Country, avg(Population) As Avg_Population,max(Population) as MAX_POPULATION, min(Population) As min_population FRom World.Country;

@@ -1,0 +1,1 @@
+SELECT Region, Count(*) As total_region FROM world.Country group by Region;

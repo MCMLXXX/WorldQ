@@ -1,0 +1,1 @@
+SELECT concat(Continent,",   ", Region) FROM world.Country;

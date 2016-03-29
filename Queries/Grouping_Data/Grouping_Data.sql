@@ -1,0 +1,1 @@
+SELECT Continent, Count(*) AS Country_count FROM world.Country group by Continent;

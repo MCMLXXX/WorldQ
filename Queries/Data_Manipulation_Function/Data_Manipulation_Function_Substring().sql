@@ -1,0 +1,1 @@
+SELECT GovernmentForm, left(GovernmentForm,5) As Goverment_Form_Initials From world.Country;

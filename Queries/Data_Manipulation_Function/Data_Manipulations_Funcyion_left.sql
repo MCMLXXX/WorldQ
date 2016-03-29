@@ -1,0 +1,1 @@
+select Language, left(Language,2) as language_Initials from world.CountryLanguage order by language_Initials;

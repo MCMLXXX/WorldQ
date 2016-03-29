@@ -1,0 +1,1 @@
+SELECT Population,Continent,IndepYear From World.Country WHERE Continent like 'A%';

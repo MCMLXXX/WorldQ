@@ -1,0 +1,1 @@
+SELECT Percentage,Percentage/2 As Half FROM world.CountryLanguage;

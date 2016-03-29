@@ -1,0 +1,1 @@
+SELECT Percentage,Percentage*2 AS Increase FROM world.CountryLanguage;
