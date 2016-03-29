@@ -1,0 +1,1 @@
+Select Name, District From World.city where Population = (Select Population From world.CITY where District = 'kabol');
