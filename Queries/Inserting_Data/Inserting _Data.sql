@@ -1,0 +1,1 @@
+INSERT INTO Mylist.list values(6,'Top','Silk',2);
