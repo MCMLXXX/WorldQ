@@ -1,0 +1,1 @@
+ALTER TABLE Mylist.list ADD Item_Vendor Char(50) Not Null; 

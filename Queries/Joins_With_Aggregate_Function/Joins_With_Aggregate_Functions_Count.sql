@@ -1,5 +1,5 @@
 SELECT 
-    C.Continent, 
+    C.Continent,
     COUNT(C1.District) AS District_Num, COUNT(C.Region) AS Region_Num
 FROM
     world.Country AS C

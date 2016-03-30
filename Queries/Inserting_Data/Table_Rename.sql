@@ -1,0 +1,1 @@
+Rename TABLE Mylist.list To mylist.list1;
