@@ -1,5 +1,5 @@
 -- ------------------------------------------------------------------
--- 
+-- -- This query is demonstrating BETWEEN and OREDR BY FILTER
 SELECT 
 	population,continent,indepYear 
 FROM 

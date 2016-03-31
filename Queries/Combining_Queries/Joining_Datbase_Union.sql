@@ -1,3 +1,6 @@
+-- ------------------------------------------------------------------
+-- -- This query is demonstrating how to use UNION to join Two SELECT Statements
+
 SELECT 
     Item_name, quantity
 FROM
@@ -6,3 +9,5 @@ UNION SELECT
     Item_name, quantity
 FROM
     mylist.list;
+
+-- ----------------------------------------------------------------------
