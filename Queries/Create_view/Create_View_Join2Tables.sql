@@ -1,4 +1,4 @@
-CREATE VIEW Country_Language AS
+CREATE VIEW world.Country_Language AS
     SELECT 
         C.Code, C.Name, C1.Language
     FROM
