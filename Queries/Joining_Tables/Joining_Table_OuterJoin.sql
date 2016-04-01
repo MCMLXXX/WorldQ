@@ -1,3 +1,6 @@
+-- ------------------------------------------------------------------
+-- -- This query is demonstrating how to left outer join two tables 
+
 SELECT 
     IndepYear, GNPOld, Region, District, Continent
 FROM
@@ -6,3 +9,5 @@ FROM
 ON
     C.Code = C1.code
       where Continent = 'North America';
+
+-- -------------------------------------------------------------------
