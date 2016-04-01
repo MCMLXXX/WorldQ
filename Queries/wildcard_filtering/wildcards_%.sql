@@ -1,1 +1,10 @@
-SELECT Name, District FROM world.City where District like 'k%'
+-- ------------------------------------------------------------------
+-- -- This query is demonstrating wildcard '%'
+
+SELECT 
+	Name, District 
+FROM 
+	world.City 
+WHERE District like 'k%'
+
+-- -------------------------------------------------------------------

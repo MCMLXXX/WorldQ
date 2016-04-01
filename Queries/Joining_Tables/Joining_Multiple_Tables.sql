@@ -5,7 +5,7 @@ SELECT
     Region, Language, District
 FROM
     World.Country, World.CountryLanguage, World.City
-       where
+WHERE
      World.Country.Code = World.CountryLanguage.Code And World.Country.Code = World.City.Code AND District = 'Herat';
 -- ---------------------------------------------------------------------     
 

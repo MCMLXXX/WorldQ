@@ -1,1 +1,12 @@
-Select Name, District From World.city where Population = (Select Population From world.CITY where District = 'kabol');
+ -- ------------------------------------------------------------
+ -- -------This qiery is demostrating subquery
+
+SELECT
+	Name, District 
+FROM
+	World.city 
+WHERE 
+	Population = (Select Population 
+    FROM world.CITY WHERE District = 'kabol');
+
+-- ----------------------------------------------------------------

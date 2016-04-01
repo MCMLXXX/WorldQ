@@ -1,1 +1,11 @@
-SELECT Population,Continent,IndepYear From World.Country WHERE Continent like 'A%';
+-- ------------------------------------------------------------------
+-- -- This query is demonstrating wildcard '%'
+
+SELECT
+	 Population,Continent,IndepYear 
+FROM 
+	World.Country 
+WHERE 
+	Continent LIKE 'A%';
+
+-- -----------------------------------------------------------------
