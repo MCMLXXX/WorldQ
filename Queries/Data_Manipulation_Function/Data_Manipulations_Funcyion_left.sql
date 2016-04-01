@@ -1,1 +1,11 @@
-select Language, left(Language,2) as language_Initials from world.CountryLanguage order by language_Initials;
+-- ------------------------------------------------------------------
+-- -- This query is demonstrating LEFT aggregate function and 'AS' aliases and ORDER BY filter 
+
+SELECT 
+	Language, LEFT(Language,2) AS language_Initials 
+FROM 
+	world.CountryLanguage 
+ORDER BY 
+	language_Initials;
+
+-- -----------------------------------------------------------------------------
