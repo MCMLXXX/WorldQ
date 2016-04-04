@@ -111,39 +111,4 @@ INSERT INTO `CountryLanguage` VALUES ('ABW','Dutch','T',5.3),('ABW','English','F
 /*!40000 ALTER TABLE `CountryLanguage` ENABLE KEYS */;
 UNLOCK TABLES;
 
---
--- Table structure for table `myshop`
---
-
-DROP TABLE IF EXISTS `myshop`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `myshop` (
-  `Item_id` int(11) NOT NULL,
-  `Item_Name` varchar(45) DEFAULT NULL,
-  `Item_Price` varchar(45) DEFAULT NULL,
-  `Quantity` varchar(45) DEFAULT NULL,
-  `Color` varchar(45) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `myshop`
---
-
-LOCK TABLES `myshop` WRITE;
-/*!40000 ALTER TABLE `myshop` DISABLE KEYS */;
-INSERT INTO `myshop` VALUES (1,'Saree','10.99','5','Blue'),(2,'Banari	','5,000	','2','Green, Blue'),(3,'Cotton Sari','3,000','1','Blue');
-/*!40000 ALTER TABLE `myshop` ENABLE KEYS */;
-UNLOCK TABLES;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
-/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
-/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
-/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
-
 -- Dump completed on 2016-03-30 22:47:45
