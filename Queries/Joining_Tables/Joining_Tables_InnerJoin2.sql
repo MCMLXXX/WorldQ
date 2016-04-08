@@ -1,10 +1,10 @@
 -- ------------------------------------------------------------------
--- -- This query is demonstrating how to inner join two tables and using 'AND' filter
-SELECT 
-    IndepYear, Region, District
+-- -- This query is demonstrating all the counries and cities name in world database for a particular Continent.  
+SELECT
+    C.Name, C1.NAME  
 FROM
     world.Country AS C,
-    world.City AS c1
+    world.City AS C1
 WHERE
     C.Code = C1.code
         AND C.Continent = 'Asia';
