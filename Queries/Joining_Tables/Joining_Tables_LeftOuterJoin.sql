@@ -1,5 +1,6 @@
 -- ------------------------------------------------------------------
--- -- This query is demonstrating how to left outer join two tables 
+-- -- This query is demonstrating how to "left outer join" two tables using 'AS'. By using AS the code management is easy. 
+ 
 
 SELECT 
     C.IndepYear, C.GNPOld, C.Region, C1.District, C.Continent
