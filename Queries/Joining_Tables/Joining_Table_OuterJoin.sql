@@ -1,5 +1,6 @@
 -- ------------------------------------------------------------------
--- -- This query is demonstrating how to left outer join two tables 
+-- -- This query is demonstrating how to "left outer join" two tables 
+-- Retrieved North America data from two tables 
 
 SELECT 
     IndepYear, GNPOld, Region, District, Continent
